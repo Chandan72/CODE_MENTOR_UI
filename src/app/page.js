@@ -74,7 +74,7 @@ export default function HomePage() {
 
     // Perform the fetch request
     try {
-      const response = await fetch(`http://127.0.0.1:8000${endpoint}`, {
+      const response = await fetch(`https://ai-code-mentor-api.onrender.com${endpoint}`, {
         method: 'POST',
         headers: headers, // Pass the dynamically set headers
         body: payload,      // Pass the dynamic payload (JSON string or FormData)
