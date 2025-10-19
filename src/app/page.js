@@ -131,7 +131,7 @@ export default function HomePage() {
           ) : ( // This block is for mode === 'zip'
             <div>
               <label htmlFor="zipfile" className="block text-sm font-medium text-gray-300 mb-2">
-                Upload your project's .zip file:
+                Upload your project&apos;s .zip file:
               </label>
               <input 
                 type="file" 
